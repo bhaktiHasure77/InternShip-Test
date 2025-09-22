@@ -1,0 +1,12 @@
+
+.app {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7ff;
+}
+
+.mainLayout {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 20px;
+}

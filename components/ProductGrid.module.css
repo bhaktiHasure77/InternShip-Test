@@ -1,0 +1,94 @@
+.mainContent {
+  width: 100%;
+}
+
+.promoBanner {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.bannerText h2 {
+  font-size: 32px;
+  margin: 0 0 10px 0;
+}
+
+.bannerText p {
+  margin: 0 0 20px 0;
+  opacity: 0.9;
+}
+
+.shopNowBtn {
+  text-decoration: none;
+  color: #f0f0f2;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.bannerImage {
+  width: 230px;
+  transform: rotate(-15deg);
+}
+
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border: 1px solid #e0e0e0;
+}
+.sortSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-evenly;
+}
+
+.sortDropdown {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  margin-left: 8px;
+}
+
+.viewOptions button {
+  background: none;
+  border: 1px solid #d1d5db;
+  padding: 8px 12px;
+  margin-left: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.viewOptions button.active {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

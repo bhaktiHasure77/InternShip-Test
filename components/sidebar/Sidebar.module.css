@@ -1,0 +1,82 @@
+/* .sidebar {
+  background-color: #dad9d9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  font-family: Arial, sans-serif;
+} */
+
+.filterSection {
+  background-color: #dad9d9;
+  margin-bottom: 25px;
+  border:2px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  border-bottom: 2px solid #a1a2a3;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.filterList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filterList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  cursor: pointer;
+  color: #4b5563;
+}
+
+.filterList li:hover, .filterList li.active {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.priceSlider {
+  width: 100%;
+}
+
+.priceRange {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.colorSwatches {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #e0e0e0;
+}
+
+.moreButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #dad9d9;
+  color: rgb(84, 80, 80);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top:10px;
+} 

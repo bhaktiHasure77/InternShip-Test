@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr; /* Sidebar width and main content */
+  gap: 24px;
+  padding: 24px;
+  background-color: #f9fafb; /* Light grey background */
+  max-width: 1400px;
+  margin: 0 auto;
+}
